@@ -9,6 +9,7 @@ import Privacy from './pages/Privacy';
 import NotFound from './pages/404';
 
 import './App.css'
+import './modern-styles.css'
 
 function App() {
   return (
