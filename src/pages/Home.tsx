@@ -1,32 +1,38 @@
 import { Link } from 'react-router-dom';
+import profileImage from '../Images/1000453032.jpg';
 
 const Home = () => {
   return (
     <div className="home">
       <header className="hero">
         <div className="hero-content">
-          <h1>Hi, I'm <span className="highlight">Mluleki Moloi</span></h1>
-          <h2 className="hero-subtitle">Software Developer</h2>
-          <p className="hero-description">
-            Passionate about creating innovative solutions and building impactful applications
-          </p>
-          <div className="hero-buttons">
-            <Link to="/projects" className="btn btn-primary">View My Work</Link>
-            <Link to="/contact" className="btn btn-secondary">Get In Touch</Link>
+          <div className="hero-text">
+            <h1>Hi, I'm <span className="highlight">Mluleki Moloi</span></h1>
+            <h2 className="hero-subtitle">Software Developer</h2>
+            <p className="hero-description">
+              Passionate about creating innovative solutions and building impactful applications
+            </p>
+            <div className="hero-buttons">
+              <Link to="/projects" className="btn btn-primary">View My Work</Link>
+              <Link to="/contact" className="btn btn-secondary">Get In Touch</Link>
+            </div>
+            <div className="hero-stats">
+              <div className="stat-item">
+                <span className="stat-number">3+</span>
+                <span className="stat-label">Years Learning</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-number">4+</span>
+                <span className="stat-label">Certifications</span>
+              </div>
+              <div className="stat-item">
+                <span className="stat-number">Multiple</span>
+                <span className="stat-label">Technologies</span>
+              </div>
+            </div>
           </div>
-          <div className="hero-stats">
-            <div className="stat-item">
-              <span className="stat-number">3+</span>
-              <span className="stat-label">Years Learning</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">4+</span>
-              <span className="stat-label">Certifications</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">Multiple</span>
-              <span className="stat-label">Technologies</span>
-            </div>
+          <div className="hero-image">
+            <img src={profileImage} alt="Mluleki Moloi" />
           </div>
         </div>
       </header>
@@ -53,6 +59,8 @@ const Home = () => {
             <div className="skill-icon">💻</div>
             <h3>Languages & Frameworks</h3>
             <div className="skill-tags">
+              <span>React</span>
+              <span>Node.js</span>
               <span>C#</span>
               <span>ASP.NET</span>
               <span>JavaScript</span>

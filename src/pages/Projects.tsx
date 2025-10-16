@@ -3,7 +3,7 @@ const Projects = () => {
     {
       title: "Shopping List App",
       description: "A practical shopping list application that helps users organize their grocery shopping. Features include adding, editing, and deleting items, with a clean and intuitive interface for managing shopping lists efficiently.",
-      techStack: ["JavaScript", "HTML5", "CSS3", "Local Storage"],
+      techStack: ["TypeScript", "HTML5", "CSS3", "Local Storage"],
       github: "https://github.com/Mluleki23/Task-5-Shopping-List-App-",
       category: "Web Application",
       image: "https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=600&fit=crop"
@@ -11,34 +11,18 @@ const Projects = () => {
     {
       title: "Links Vault",
       description: "A bookmark management application for organizing and storing important links. Users can categorize, search, and manage their favorite websites and resources in one centralized location.",
-      techStack: ["JavaScript", "HTML5", "CSS3", "Web Storage API"],
+      techStack: ["TypeScript", "CSS3", "JavaScript", "HTML5"],
       github: "https://github.com/Mluleki23/Task-2-Links-Vault",
       category: "Productivity",
       image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop"
     },
     {
-      title: "Ollama AI React",
-      description: "An AI-powered application built with React that integrates with Ollama for intelligent conversations and interactions. Demonstrates modern AI integration techniques and responsive UI design.",
-      techStack: ["React", "TypeScript", "Ollama AI", "REST API"],
-      github: "https://github.com/Mluleki23/Ollama-AI-React",
-      category: "AI & Machine Learning",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop"
-    },
-    {
       title: "Weather Application",
       description: "A comprehensive weather application that provides real-time weather information, forecasts, and detailed meteorological data. Features location-based weather updates and beautiful data visualization.",
-      techStack: ["JavaScript", "HTML5", "CSS3", "Weather API", "Geolocation"],
+      techStack: ["TypeScript", "CSS3", "JavaScript", "HTML5"],
       github: "https://github.com/Mluleki23/Task-4-Weather-Application",
       category: "Web Development",
       image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=600&fit=crop"
-    },
-    {
-      title: "Personal Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and TypeScript. Features include dynamic routing, smooth animations, and a clean, professional design showcasing my skills, education, and projects.",
-      techStack: ["React", "TypeScript", "CSS3", "React Router", "Vite"],
-      github: "https://github.com/Mluleki23/Mluleki-Moloi-Portfolio",
-      category: "Web Development",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
     }
   ];
 

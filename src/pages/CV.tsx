@@ -106,6 +106,7 @@ const CV = () => {
             <h4>Responsive Web Design</h4>
             <p className="cert-provider">freeCodeCamp</p>
             <p className="cert-description">HTML, CSS, Flexbox, Grid, Responsive Design Principles</p>
+            <a href="https://www.freecodecamp.org/certification/mlulekimoloi02/responsive-web-design" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
           </div>
           <div className="certificate-card">
             <div className="cert-icon">🌐</div>
@@ -118,6 +119,7 @@ const CV = () => {
             <h4>JavaScript Algorithms and Data Structures</h4>
             <p className="cert-provider">freeCodeCamp</p>
             <p className="cert-description">ES6, Regular Expressions, OOP, Functional Programming</p>
+            <a href="https://www.freecodecamp.org/certification/mlulekimoloi02/javascript-algorithms-and-data-structures-v8" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
           </div>
           <div className="certificate-card">
             <div className="cert-icon">📊</div>
@@ -134,6 +136,8 @@ const CV = () => {
           <div className="skills-section">
             <h4>💻 Languages & Frameworks</h4>
             <div className="skill-tags">
+              <span className="skill-tag">React</span>
+              <span className="skill-tag">Node.js</span>
               <span className="skill-tag">C#</span>
               <span className="skill-tag">ASP.NET</span>
               <span className="skill-tag">JavaScript</span>
