@@ -1,6 +1,13 @@
+import CVPdf from "../Images/Mluleki-CV.pdf";
+
 const CV = () => {
   const downloadCV = () => {
-    window.print();
+    const link = document.createElement("a");
+    link.href = CVPdf;
+    link.download = "Mluleki-Moloi-CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -10,23 +17,29 @@ const CV = () => {
         <h2>Software Developer</h2>
         <div className="contact-info">
           <p>
-            <span className="contact-icon">📧</span>
-            <a href="mailto:melokuhlemluleki02@gmail.com">melokuhlemluleki02@gmail.com</a>
+            <a href="mailto:melokuhlemluleki02@gmail.com">
+              melokuhlemluleki02@gmail.com
+            </a>
           </p>
           <p>
-            <span className="contact-icon">📱</span>
             <a href="tel:+27791881002">079 188 1002</a>
           </p>
           <p>
-            <span className="contact-icon">📍</span>
             <span>Vosloorus, South Africa</span>
           </p>
           <p>
-            <span className="contact-icon">🔗</span>
-            <a href="https://github.com/Mluleki23" target="_blank" rel="noopener noreferrer">github.com/Mluleki23</a>
+            <a
+              href="https://github.com/Mluleki23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/Mluleki23
+            </a>
           </p>
         </div>
-        <button onClick={downloadCV} className="download-btn">Download CV</button>
+        <button onClick={downloadCV} className="download-btn">
+          Download CV
+        </button>
       </header>
 
       <section className="personal-info">
@@ -58,10 +71,13 @@ const CV = () => {
       <section className="objective">
         <h3>Career Objective</h3>
         <p>
-          Motivated and dedicated IT professional seeking a challenging role where I can apply and grow my technical
-          skills to support organizational goals. I bring strong problem-solving abilities, excellent communication, and a
-          collaborative mindset, with a proven ability to work effectively in team environments. Passionate about
-          continuous learning and ready to take on new opportunities with focus, integrity, and a positive attitude.
+          Motivated and dedicated IT professional seeking a challenging role
+          where I can apply and grow my technical skills to support
+          organizational goals. I bring strong problem-solving abilities,
+          excellent communication, and a collaborative mindset, with a proven
+          ability to work effectively in team environments. Passionate about
+          continuous learning and ready to take on new opportunities with focus,
+          integrity, and a positive attitude.
         </p>
       </section>
 
@@ -74,7 +90,10 @@ const CV = () => {
               <h4>Diploma in ICT Application Development</h4>
               <p className="institution">Durban University of Technology</p>
               <p className="duration">February 2022 – June 2025</p>
-              <p className="description">Comprehensive program covering software development, database management, web technologies, and application design.</p>
+              <p className="description">
+                Comprehensive program covering software development, database
+                management, web technologies, and application design.
+              </p>
             </div>
           </div>
           <div className="education-item">
@@ -83,7 +102,10 @@ const CV = () => {
               <h4>Higher Certificate in Information Technology</h4>
               <p className="institution">Durban University of Technology</p>
               <p className="duration">February 2021 – November 2021</p>
-              <p className="description">Foundation in IT fundamentals, programming basics, and computer systems.</p>
+              <p className="description">
+                Foundation in IT fundamentals, programming basics, and computer
+                systems.
+              </p>
             </div>
           </div>
           <div className="education-item">
@@ -92,7 +114,10 @@ const CV = () => {
               <h4>Matric Certificate</h4>
               <p className="institution">Wetsie Secondary School</p>
               <p className="duration">January 2016 – November 2020</p>
-              <p className="description">Completed secondary education with focus on mathematics and science.</p>
+              <p className="description">
+                Completed secondary education with focus on mathematics and
+                science.
+              </p>
             </div>
           </div>
         </div>
@@ -102,30 +127,48 @@ const CV = () => {
         <h3>Professional Certificates</h3>
         <div className="certificates-grid">
           <div className="certificate-card">
-            <div className="cert-icon">🎨</div>
             <h4>Responsive Web Design</h4>
             <p className="cert-provider">freeCodeCamp</p>
-            <p className="cert-description">HTML, CSS, Flexbox, Grid, Responsive Design Principles</p>
-            <a href="https://www.freecodecamp.org/certification/mlulekimoloi02/responsive-web-design" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
+            <p className="cert-description">
+              HTML, CSS, Flexbox, Grid, Responsive Design Principles
+            </p>
+            <a
+              href="https://www.freecodecamp.org/certification/mlulekimoloi02/responsive-web-design"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cert-link"
+            >
+              View Certificate
+            </a>
           </div>
           <div className="certificate-card">
-            <div className="cert-icon">🌐</div>
             <h4>Introduction to Packet Tracer</h4>
             <p className="cert-provider">Cisco Networking Academy</p>
-            <p className="cert-description">Network simulation, configuration, and troubleshooting</p>
+            <p className="cert-description">
+              Network simulation, configuration, and troubleshooting
+            </p>
           </div>
           <div className="certificate-card">
-            <div className="cert-icon">⚡</div>
             <h4>JavaScript Algorithms and Data Structures</h4>
             <p className="cert-provider">freeCodeCamp</p>
-            <p className="cert-description">ES6, Regular Expressions, OOP, Functional Programming</p>
-            <a href="https://www.freecodecamp.org/certification/mlulekimoloi02/javascript-algorithms-and-data-structures-v8" target="_blank" rel="noopener noreferrer" className="cert-link">View Certificate</a>
+            <p className="cert-description">
+              ES6, Regular Expressions, OOP, Functional Programming
+            </p>
+            <a
+              href="https://www.freecodecamp.org/certification/mlulekimoloi02/javascript-algorithms-and-data-structures-v8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cert-link"
+            >
+              View Certificate
+            </a>
           </div>
           <div className="certificate-card">
-            <div className="cert-icon">📊</div>
             <h4>Introduction to Data Science</h4>
             <p className="cert-provider">Cisco Networking Academy</p>
-            <p className="cert-description">Data analysis, visualization, and interpretation</p>
+            <p className="cert-description">
+              Data analysis, visualization, and interpretation
+            </p>
           </div>
         </div>
       </section>
@@ -134,7 +177,7 @@ const CV = () => {
         <h3>Technical Skills</h3>
         <div className="skills-container">
           <div className="skills-section">
-            <h4>💻 Languages & Frameworks</h4>
+            <h4>Languages & Frameworks</h4>
             <div className="skill-tags">
               <span className="skill-tag">React</span>
               <span className="skill-tag">Node.js</span>
@@ -148,15 +191,17 @@ const CV = () => {
             </div>
           </div>
           <div className="skills-section">
-            <h4>🌐 Networking & Systems</h4>
+            <h4>Networking & Systems</h4>
             <div className="skill-tags">
-              <span className="skill-tag">Computer Technology Fundamentals</span>
+              <span className="skill-tag">
+                Computer Technology Fundamentals
+              </span>
               <span className="skill-tag">Networking Essentials</span>
               <span className="skill-tag">Cisco Packet Tracer</span>
             </div>
           </div>
           <div className="skills-section">
-            <h4>🎯 Professional Strengths</h4>
+            <h4>Professional Strengths</h4>
             <div className="skill-tags">
               <span className="skill-tag">Excellent Communication</span>
               <span className="skill-tag">Teamwork & Collaboration</span>
@@ -175,14 +220,14 @@ const CV = () => {
           <div className="language-item">
             <span className="language-name">English</span>
             <div className="proficiency-bar">
-              <div className="proficiency-fill" style={{width: '90%'}}></div>
+              <div className="proficiency-fill" style={{ width: "90%" }}></div>
             </div>
             <span className="proficiency-label">Fluent</span>
           </div>
           <div className="language-item">
             <span className="language-name">IsiZulu</span>
             <div className="proficiency-bar">
-              <div className="proficiency-fill" style={{width: '100%'}}></div>
+              <div className="proficiency-fill" style={{ width: "100%" }}></div>
             </div>
             <span className="proficiency-label">Native</span>
           </div>
