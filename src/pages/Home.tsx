@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import profileImage from "../Images/1000453032.jpg";
 
 const Home = () => {
   return (
@@ -33,13 +32,13 @@ const Home = () => {
                 <span className="stat-label">Certifications</span>
               </div>
               <div className="stat-item">
-                <span className="stat-number">Multiple</span>
+                <span className="stat-number">9+</span>
                 <span className="stat-label">Technologies</span>
               </div>
             </div>
           </div>
           <div className="hero-image">
-            <img src={profileImage} alt="Mluleki Moloi" />
+            <div className="avatar-initials">MM</div>
           </div>
         </div>
       </header>
