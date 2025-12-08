@@ -62,6 +62,36 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="services">
+        <h2>What I Do</h2>
+        <div className="services-grid">
+          <div className="service-card">
+            <div className="service-number">1</div>
+            <h3>Front-End Development</h3>
+            <p>
+              Building responsive and user-friendly websites using HTML, CSS,
+              JavaScript, and React.
+            </p>
+          </div>
+          <div className="service-card">
+            <div className="service-number">2</div>
+            <h3>Mobile App Development</h3>
+            <p>
+              Creating cross-platform mobile applications using React Native and
+              modern UI frameworks.
+            </p>
+          </div>
+          <div className="service-card">
+            <div className="service-number">3</div>
+            <h3>Database Management</h3>
+            <p>
+              Designing, managing, and querying databases using PostgreSQL and
+              SQLite.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="skills-preview">
         <h2>Technical Skills</h2>
         <div className="skills-grid">
@@ -106,12 +136,17 @@ const Home = () => {
           <div className="education-card">
             <h3>Diploma in ICT Application Development</h3>
             <p className="institution">Durban University of Technology</p>
-            <p className="duration">2022 - 2025</p>
+            <p className="duration">2025</p>
           </div>
           <div className="education-card">
             <h3>Higher Certificate in IT</h3>
             <p className="institution">Durban University of Technology</p>
             <p className="duration">2021</p>
+          </div>
+          <div className="education-card">
+            <h3>National Senior Certificate</h3>
+            <p className="institution">Wetsie Secondary School</p>
+            <p className="duration">2020</p>
           </div>
         </div>
       </section>
