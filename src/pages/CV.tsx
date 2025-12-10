@@ -25,7 +25,7 @@ const CV = () => {
             <a href="tel:+27791881002">079 188 1002</a>
           </p>
           <p>
-            <span>Vosloorus, South Africa</span>
+            <span>52 Oribi Road Pelham Pietermarizburg</span>
           </p>
           <p>
             <a
@@ -63,7 +63,7 @@ const CV = () => {
           </div>
           <div className="info-item">
             <strong>Address:</strong>
-            <span>87 Motlopi Street, Ponong, Vosloorus, 1475</span>
+            <span>52 Oribi Road Pelham Pietermarizburg</span>
           </div>
         </div>
       </section>
