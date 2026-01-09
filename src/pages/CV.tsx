@@ -1,4 +1,4 @@
-import CVPdf from "../Images/Mluleki-CV.pdf";
+const CVPdf = new URL("../Images/Mluleki-CV.pdf", import.meta.url).href;
 
 const CV = () => {
   const downloadCV = () => {

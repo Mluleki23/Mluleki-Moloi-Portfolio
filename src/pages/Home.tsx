@@ -47,17 +47,7 @@ const Home = () => {
         <h2>About Me</h2>
         <div className="about-content">
           <p>
-            Motivated and dedicated IT professional seeking a challenging role
-            where I can apply and grow my technical skills to support
-            organizational goals. I bring strong problem-solving abilities,
-            excellent communication, and a collaborative mindset, with a proven
-            ability to work effectively in team environments.
-          </p>
-          <p>
-            Passionate about continuous learning and ready to take on new
-            opportunities with focus, integrity, and a positive attitude.
-            Currently pursuing a Diploma in ICT Application Development at
-            Durban University of Technology.
+            Motivated and dedicated IT professional seeking a challenging role where I can apply and grow my technical skills to support organizational goals. I bring strong problem-solving abilities, excellent communication, and a collaborative mindset, with a proven ability to work effectively in team environments. Passionate about continuous learning and ready to take on new opportunities with focus, integrity, and a positive attitude.
           </p>
         </div>
       </section>
