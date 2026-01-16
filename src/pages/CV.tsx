@@ -1,4 +1,4 @@
-const CVPdf = new URL("../Images/Mluleki-CV.pdf", import.meta.url).href;
+const CVPdf = new URL("../Images/Mluleki CV (3).pdf", import.meta.url).href;
 
 const CV = () => {
   const downloadCV = () => {
@@ -21,12 +21,11 @@ const CV = () => {
               melokuhlemluleki02@gmail.com
             </a>
           </p>
-          <p>
-            <a href="tel:+27791881002">079 188 1002</a>
-          </p>
-          <p>
-            <span>52 Oribi Road Pelham Pietermarizburg</span>
-          </p>
+          <p>0791881002</p>
+          <p>52 Oribi Road , Pelham , Pietermarizburg 3201</p>
+          <p>2003-02-02</p>
+          <p>South Africa</p>
+          <p>Male</p>
           <p>
             <a
               href="https://github.com/Mluleki23"
@@ -34,6 +33,15 @@ const CV = () => {
               rel="noopener noreferrer"
             >
               github.com/Mluleki23
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://mluleki-moloi-portfolio.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://mluleki-moloi-portfolio.onrender.com
             </a>
           </p>
         </div>
@@ -47,15 +55,11 @@ const CV = () => {
         <div className="info-grid">
           <div className="info-item">
             <strong>Date of Birth:</strong>
-            <span>February 2, 2003</span>
+            <span>2003-02-02</span>
           </div>
           <div className="info-item">
             <strong>Nationality:</strong>
-            <span>South African</span>
-          </div>
-          <div className="info-item">
-            <strong>Marital Status:</strong>
-            <span>Single</span>
+            <span>South Africa</span>
           </div>
           <div className="info-item">
             <strong>Gender:</strong>
@@ -63,21 +67,17 @@ const CV = () => {
           </div>
           <div className="info-item">
             <strong>Address:</strong>
-            <span>52 Oribi Road Pelham Pietermarizburg</span>
+            <span>52 Oribi Road , Pelham , Pietermarizburg 3201</span>
           </div>
         </div>
       </section>
 
       <section className="objective">
-        <h3>Career Objective</h3>
+        <h3>Profile</h3>
         <p>
-          Motivated and dedicated IT professional seeking a challenging role
-          where I can apply and grow my technical skills to support
-          organizational goals. I bring strong problem-solving abilities,
-          excellent communication, and a collaborative mindset, with a proven
-          ability to work effectively in team environments. Passionate about
-          continuous learning and ready to take on new opportunities with focus,
-          integrity, and a positive attitude.
+          Motivated and dedicated Software Developer eager to apply and grow my technical skills. Strong problem-
+          solving, communication, and teamwork abilities. Passionate about clean code, continuous learning, and
+          building innovative solutions.
         </p>
       </section>
 
@@ -89,11 +89,7 @@ const CV = () => {
             <div className="timeline-content">
               <h4>Diploma in ICT Application Development</h4>
               <p className="institution">Durban University of Technology</p>
-              <p className="duration">February 2022 – June 2025</p>
-              <p className="description">
-                Comprehensive program covering software development, database
-                management, web technologies, and application design.
-              </p>
+              <p className="duration">2025</p>
             </div>
           </div>
           <div className="education-item">
@@ -101,93 +97,54 @@ const CV = () => {
             <div className="timeline-content">
               <h4>Higher Certificate in Information Technology</h4>
               <p className="institution">Durban University of Technology</p>
-              <p className="duration">February 2021 – November 2021</p>
-              <p className="description">
-                Foundation in IT fundamentals, programming basics, and computer
-                systems.
-              </p>
+              <p className="duration">2021</p>
             </div>
           </div>
           <div className="education-item">
             <div className="timeline-marker"></div>
             <div className="timeline-content">
               <h4>Matric Certificate</h4>
-              <p className="institution">Wetsie Secondary School</p>
-              <p className="duration">January 2016 – November 2020</p>
-              <p className="description">
-                Completed secondary education with focus on mathematics and
-                science.
-              </p>
+              <p className="institution">Wetsie Secondary Schoool</p>
+              <p className="duration">2020</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="certificates">
-        <h3>Professional Certificates</h3>
+        <h3>Certificates</h3>
         <div className="certificates-grid">
           <div className="certificate-card">
             <h4>Responsive Web Design</h4>
             <p className="cert-provider">freeCodeCamp</p>
-            <p className="cert-description">
-              HTML, CSS, Flexbox, Grid, Responsive Design Principles
-            </p>
-            <a
-              href="https://www.freecodecamp.org/certification/mlulekimoloi02/responsive-web-design"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cert-link"
-            >
-              View Certificate
-            </a>
           </div>
           <div className="certificate-card">
-            <h4>Introduction to Packet Tracer</h4>
-            <p className="cert-provider">Cisco Networking Academy</p>
-            <p className="cert-description">
-              Network simulation, configuration, and troubleshooting
-            </p>
-          </div>
-          <div className="certificate-card">
-            <h4>JavaScript Algorithms and Data Structures</h4>
+            <h4>JavaScript Algorithms And Data Structures</h4>
             <p className="cert-provider">freeCodeCamp</p>
-            <p className="cert-description">
-              ES6, Regular Expressions, OOP, Functional Programming
-            </p>
-            <a
-              href="https://www.freecodecamp.org/certification/mlulekimoloi02/javascript-algorithms-and-data-structures-v8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cert-link"
-            >
-              View Certificate
-            </a>
           </div>
           <div className="certificate-card">
-            <h4>Introduction to Data Science</h4>
-            <p className="cert-provider">Cisco Networking Academy</p>
-            <p className="cert-description">
-              Data analysis, visualization, and interpretation
-            </p>
+            <h4>Understanding Artificial Intelligence</h4>
+            <p className="cert-provider">datacamp</p>
           </div>
         </div>
       </section>
 
       <section className="skills">
-        <h3>Technical Skills</h3>
+        <h3>Skills</h3>
         <div className="skills-container">
           <div className="skills-section">
             <h4>Languages & Frameworks</h4>
             <div className="skill-tags">
-              <span className="skill-tag">React</span>
-              <span className="skill-tag">Node.js</span>
               <span className="skill-tag">C#</span>
-              <span className="skill-tag">ASP.NET</span>
+              <span className="skill-tag">MVC</span>
               <span className="skill-tag">JavaScript</span>
               <span className="skill-tag">TypeScript</span>
-              <span className="skill-tag">HTML5</span>
-              <span className="skill-tag">CSS3</span>
-              <span className="skill-tag">SQL</span>
+              <span className="skill-tag">HTML</span>
+              <span className="skill-tag">CSS</span>
+              <span className="skill-tag">React</span>
+              <span className="skill-tag">Node.js</span>
+              <span className="skill-tag">Bootstrap</span>
+              <span className="skill-tag">Tailwind CSS</span>
             </div>
           </div>
           <div className="skills-section">
@@ -197,20 +154,49 @@ const CV = () => {
                 Computer Technology Fundamentals
               </span>
               <span className="skill-tag">Networking Essentials</span>
-              <span className="skill-tag">Cisco Packet Tracer</span>
+              <span className="skill-tag">Operating Systems</span>
+            </div>
+          </div>
+          <div className="skills-section">
+            <h4>Databases</h4>
+            <div className="skill-tags">
+              <span className="skill-tag">PostgreSQL</span>
+              <span className="skill-tag">MySQL</span>
             </div>
           </div>
           <div className="skills-section">
             <h4>Professional Strengths</h4>
             <div className="skill-tags">
-              <span className="skill-tag">Excellent Communication</span>
-              <span className="skill-tag">Teamwork & Collaboration</span>
-              <span className="skill-tag">Time Management</span>
-              <span className="skill-tag">Leadership</span>
-              <span className="skill-tag">Problem Solving</span>
-              <span className="skill-tag">Adaptability</span>
+              <span className="skill-tag">Excellent communication and teamwork</span>
+              <span className="skill-tag">Strong time management and leadership abilities</span>
+              <span className="skill-tag">Ability to work under pressure and meet deadlines</span>
+              <span className="skill-tag">Analytical and problem-solving skills</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="experience">
+        <h3>Professional Experience</h3>
+        <div className="experience-item">
+          <h4>CodeTribe Digital Solutions Developer Trainee, mLab Southern Africa</h4>
+          <p className="duration">07/2025 – 03/2026</p>
+          <p className="location">Pietermarizburg, KZN</p>
+          <ul>
+            <li>Collaborate with other trainees as needed to define and develop requirements derived from discussions with the facilitator.</li>
+            <li>Identify and collaborate with a local small business to define and develop requirements for a relevant digital solution.</li>
+            <li>Learn to develop applications and code software applications to adhere to designs that support business requirements for external customers.</li>
+            <li>Learn to write requirement specifications and design documents for a variety of development tasks including feature development, database design and system integrations.</li>
+            <li>Attend to the required refactoring, debugging, and implementing of necessary changes.</li>
+            <li>Document processes for specifications to ensure quality.</li>
+            <li>Evaluate system specifications against client requirements.</li>
+            <li>Participate in implementing new software features and maintain existing features.</li>
+            <li>Assist in developing user guide/ manuals as necessary.</li>
+            <li>Self-organise</li>
+            <li>Plan and Design</li>
+            <li>Complete projects, assignments, tasks and provide reports as and when needed.</li>
+            <li>Participate in all Scrum events/ meeting (Stand up meeting, Planning, review, retrospective etc.).</li>
+          </ul>
         </div>
       </section>
 
@@ -218,20 +204,18 @@ const CV = () => {
         <h3>Languages</h3>
         <div className="language-list">
           <div className="language-item">
-            <span className="language-name">English</span>
-            <div className="proficiency-bar">
-              <div className="proficiency-fill" style={{ width: "90%" }}></div>
-            </div>
-            <span className="proficiency-label">Fluent</span>
+            <span className="language-name">Isizulu</span>
           </div>
           <div className="language-item">
-            <span className="language-name">IsiZulu</span>
-            <div className="proficiency-bar">
-              <div className="proficiency-fill" style={{ width: "100%" }}></div>
-            </div>
-            <span className="proficiency-label">Native</span>
+            <span className="language-name">English</span>
           </div>
         </div>
+      </section>
+
+      <section className="references">
+        <h3>References</h3>
+        <p>Dlozi Mthethwa, Facilitator</p>
+        <p>dlozi.mthethwa@gmail.com, 0763509451</p>
       </section>
     </div>
   );
